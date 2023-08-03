@@ -1,0 +1,116 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 900px;
+  min-height: 900px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+.personal_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-name {
+  color: #082046;
+}
+#birthday,
+#gender,
+#phoneNumber,
+#Email,
+#address,
+#certificate {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.section-title {
+  width: 25%;
+  font-size: 18px;
+}
+.section {
+  width: 200%;
+}
+#focus {
+  border-bottom: 1px solid black;
+  width: 50%;
+}
+#section-content {
+  word-break: break-word;
+  width: 50%;
+  text-align: justify;
+}
+
+.section-year {
+  width: 25%;
+}
+.section-1,
+.section-2 {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  gap: 15px;
+  margin-top: 15px;
+  width: 50%;
+}
+.section-cont {
+  margin: 0px;
+  width: 200%;
+  font-size: 13px;
+}
+.list,
+.social {
+  margin-top: -25px;
+  padding: 20px;
+}
+.section3 {
+  width: 100%;
+}
+.section-4,
+.section-5 {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  gap: 15px;
+  margin-top: 15px;
+  width: 50%;
+}
+#section-skill {
+  font-weight: bold;
+  size: 12px;
+  margin-bottom: 5px;
+}
+#certificate-1 {
+  text-transform: uppercase;
+}
+.list-content {
+  margin-top: 5px;
+}
+#contact-year {
+  margin: 10px 0px;
+}
