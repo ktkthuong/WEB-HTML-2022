@@ -50,6 +50,11 @@ body {
   display: flex;
   align-items: center;
   gap: 50px;
+  line-height: 0.5;
+}
+img {
+  width: 200px;
+  margin-top: -45px;
 }
 .section-title {
   width: 25%;
