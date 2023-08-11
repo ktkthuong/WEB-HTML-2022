@@ -8,7 +8,7 @@ Web CV for Stater
 ```
 This is a simple CV website I create with html and css.
 
-How to deloy a website? 
+How to deploy a website? 
 
 We use Netlify for free domain
 
